@@ -9,4 +9,5 @@ com/agenda/model/Consultor.class
 SecurityConfig.class
 com/agenda/model/Cliente.class
 com/agenda/repository/VisitaRepository.class
+com/agenda/controller/HelloController.class
 com/agenda/model/Visita.class
