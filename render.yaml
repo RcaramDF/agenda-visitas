@@ -1,8 +1,7 @@
 services:
   - type: web
     name: agenda-visitas
-    env: java
+    env: docker
     plan: free
-    buildCommand: mvn clean install
-    startCommand: java -jar target/agenda-visitas-1.0-SNAPSHOT.jar
     branch: main
+    rootDir: .
