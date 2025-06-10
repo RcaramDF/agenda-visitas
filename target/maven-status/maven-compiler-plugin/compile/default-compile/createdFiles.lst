@@ -3,10 +3,10 @@ com/agenda/model/Visita$StatusVisita.class
 com/agenda/repository/ConsultorRepository.class
 com/agenda/service/ClienteService.class
 com/agenda/AgendaVisitasApplication.class
+com/agenda/security/SecurityConfig.class
 com/agenda/repository/ClienteRepository.class
 com/agenda/service/ConsultorService.class
 com/agenda/model/Consultor.class
-SecurityConfig.class
 com/agenda/model/Cliente.class
 com/agenda/repository/VisitaRepository.class
 com/agenda/controller/HelloController.class
