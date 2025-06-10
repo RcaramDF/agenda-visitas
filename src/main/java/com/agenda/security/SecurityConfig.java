@@ -13,7 +13,8 @@ public class SecurityConfig {
                 .anyRequest().permitAll()
             )
             .csrf(csrf -> csrf.disable())
-            .headers(headers -> headers.frameOptions().disable());
+            .headers(headers -> headers.frameOptions().disable())
+            .formLogin(form -> form.disable());
 
         return http.build();
     }
